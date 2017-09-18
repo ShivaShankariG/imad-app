@@ -6,9 +6,9 @@ element.onclick = function() { alert('blah');
 };
 */
 
-var img = document.getElementById("madi");
+/*var img = document.getElementById("madi");
 img.innerHTML="WHAT THE HELL";
 img.onClick = function(){
     alert("Working");
     img.style.marginLeft='100px';
-};
+};*/

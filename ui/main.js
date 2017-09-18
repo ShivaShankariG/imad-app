@@ -13,7 +13,7 @@ img.onClick = function(){
     img.style.marginLeft='100px';
 };*/
 
-var img= document.getElementById("RootNode");
+var img= document.getElementById("shiva");
 img.onclick = function(){alert("HI");
-   document.getElementById("RootNode").style.marginLeft='100px'; 
+   img.style.marginLeft='100px'; 
 };

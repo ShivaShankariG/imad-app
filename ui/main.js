@@ -1,8 +1,7 @@
 console.log('Loaded!');
 var element=document.getElementById("main-text");
 element.innerHTML="new- value";
-element.onClick= function(){
-    alert("WOW");
+element.onclick = function() { alert('blah'); };
 };
 
 var i=document.getElementById("img");

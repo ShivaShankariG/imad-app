@@ -12,3 +12,5 @@ img.onClick = function(){
     alert("Working");
     img.style.marginLeft='100px';
 };*/
+
+document.getElementById("RootNode").onclick = function(){alert("HI");};

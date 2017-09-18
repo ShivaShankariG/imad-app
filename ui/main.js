@@ -6,8 +6,8 @@ element.onclick = function() { alert('blah');
 };
 
 
-var i=document.getElementById('shiva');
-i.onClick = function(){
+var img=document.getElementById('shiva');
+img.onClick = function(){
     alert("Working");
-    i.style.marginLeft='100px';
+    img.style.marginLeft='100px';
 };

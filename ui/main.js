@@ -9,7 +9,7 @@ element.onclick = function() { alert('blah');
 var img= document.getElementById("shiva");
 
 img.onclick = function(){alert("HI");
-   img.style.marginLeft='100px'; 
+   img.style.marginLeft='200px'; 
 };
 
 

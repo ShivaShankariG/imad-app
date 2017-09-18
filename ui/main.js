@@ -6,7 +6,7 @@ element.onclick = function() { alert('blah');
 };
 
 
-var img = document.getElementById("shiva");
+var img = document.getElementById("madi");
 img.innerHTML="WHAT THE HELL";
 img.onClick = function(){
     alert("Working");

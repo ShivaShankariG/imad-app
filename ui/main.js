@@ -13,4 +13,6 @@ img.onClick = function(){
     img.style.marginLeft='100px';
 };*/
 
-document.getElementById("RootNode").onclick = function(){alert("HI");};
+document.getElementById("RootNode").onclick = function(){alert("HI");
+   document.getElementById("RootNode").style.marginLeft='100px'; 
+};

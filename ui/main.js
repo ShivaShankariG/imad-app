@@ -13,6 +13,7 @@ img.onClick = function(){
     img.style.marginLeft='100px';
 };*/
 
-var img= document.getElementById("RootNode").onclick = function(){alert("HI");
+var img= document.getElementById("RootNode");
+img.onclick = function(){alert("HI");
    document.getElementById("RootNode").style.marginLeft='100px'; 
 };

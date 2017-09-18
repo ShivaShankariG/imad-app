@@ -5,7 +5,7 @@ element.onclick = function() { alert('blah'); };
 
 
 var i=document.getElementById("img");
-i.onClick=function(){
+i.onClick = function(){
     alert("Working");
     i.style.marginLeft='100px';
 };

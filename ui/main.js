@@ -4,9 +4,9 @@ element.innerHTML="new- value";
 element.onclick = function() { alert('blah'); 
      element.style.marginLeft='100px';
 };
+*/
 
-
-var*/ img = document.getElementById("madi");
+var img = document.getElementById("madi");
 img.innerHTML="WHAT THE HELL";
 img.onClick = function(){
     alert("Working");

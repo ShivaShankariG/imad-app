@@ -6,7 +6,7 @@ element.onclick = function() { alert('blah');
 };
 
 
-var img=document.getElementById('shiva');
+var img = document.getElementById('shiva');
 img.onClick = function(){
     alert("Working");
     img.style.marginLeft='100px';

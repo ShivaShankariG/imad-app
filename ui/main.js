@@ -14,6 +14,7 @@ img.onClick = function(){
 };*/
 
 var img= document.getElementById("shiva");
+img.innerHTML="Hell";
 img.onclick = function(){alert("HI");
    img.style.marginLeft='100px'; 
 };

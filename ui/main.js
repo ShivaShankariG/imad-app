@@ -7,15 +7,14 @@ element.onclick = function() { alert('blah');
 
 
 var img= document.getElementById("shiva");
-
-img.onclick = function(){alert("HI");
-   img.style.marginLeft='900px'; 
+function move()
+{
+    marginLeft= marginLeft +10;
+    img.style.marginLeft=marginLeft + 'px';
+}
+img.onclick = function(){
+    alert("HI");
+   var interval= setInterval(move, 100); 
 };
 
 
-/*var img= document.getElementById("shiva");
-
-img.onclick = function(){alert("HI");
-   img.style.marginLeft='100px'; 
-};
-*/

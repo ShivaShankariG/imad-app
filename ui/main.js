@@ -7,6 +7,7 @@ element.onclick = function() { alert('blah');
 
 
 var img= document.getElementById("shiva");
+marginLeft=0;
 function move()
 {
     marginLeft= marginLeft +10;

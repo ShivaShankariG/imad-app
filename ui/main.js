@@ -12,11 +12,17 @@ function move()
 {
     while(marginLeft<900){
     marginLeft= marginLeft +10;
-    img.style.marginLeft=marginLeft + 'px';}
+    img.style.marginLeft=marginLeft + 'px';
+        
+    }
 }
 img.onclick = function(){
     alert("HI");
    var interval= setInterval(move, 100); 
 };
 
+var b= document.getElementById("counter");
+b.onClick= function(){
+    
+};
 

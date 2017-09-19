@@ -10,8 +10,9 @@ var img= document.getElementById("shiva");
 marginLeft=0;
 function move()
 {
+    while(marginLeft<100){
     marginLeft= marginLeft +10;
-    img.style.marginLeft=marginLeft + 'px';
+    img.style.marginLeft=marginLeft + 'px';}
 }
 img.onclick = function(){
     alert("HI");

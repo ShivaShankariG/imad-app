@@ -10,7 +10,7 @@ var img= document.getElementById("shiva");
 marginLeft=0;
 function move()
 {
-    while(marginLeft<100){
+    while(marginLeft<900){
     marginLeft= marginLeft +10;
     img.style.marginLeft=marginLeft + 'px';}
 }
